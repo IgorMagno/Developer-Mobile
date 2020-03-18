@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chosen_element"></string>
+    <string name="address_element_fire"></string>
+    <string name="address_element_water"></string>
+    <string name="address_element_earth"></string>
+    <string name="address_element_wind"></string>
+</resources>

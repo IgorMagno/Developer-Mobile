@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Só Da Velha-Clássico</string>
+    <string name="button_pass_the_turn">Passar a Vez</string>
+    <string name="star">Jogar</string>
+</resources>

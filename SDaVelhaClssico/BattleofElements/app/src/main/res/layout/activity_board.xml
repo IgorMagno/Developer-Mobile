@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Board">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="100dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:textColor="@color/colorText"
+            android:text="@string/who_plays" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimary">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/imageButton0X0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton0X1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton0X2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/imageButton1X0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton1X1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton1X2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/imageButton2X0"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2X1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2X2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:onClick="Board_Click"
+                        android:layout_margin="@dimen/default_gap"
+                        android:background="@color/colorImageBox"
+                        tools:srcCompat="@color/colorImageBox" />
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

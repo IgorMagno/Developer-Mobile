@@ -1,0 +1,10 @@
+<resources>
+    <string name="select_elements">Escolha os Elementos</string>
+    <string name="button_start_game">Iniciar</string>
+    <string name="app_name">Battle of Elements</string>
+    <string name="who_plays">Elemento da vez</string>
+    <string name="element_fire">Fogo</string>
+    <string name="element_water">Água</string>
+    <string name="element_earth">Terra</string>
+    <string name="element_wind">Vento</string>
+</resources>
